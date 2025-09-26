@@ -19,4 +19,21 @@ Ejemplo:
 Mi primer documento
 \end{document}
 ```
+## Segundo documento
 
+```
+\documentclass[12pt, letterpaper]{article}
+
+%%% paquetes
+\usepackage{graphicx} %% insertar imágenes
+
+\title{My first LaTeX document} %% título del documento
+\author{Hubert Farnsworth} %% author
+\date{August 2022} %% Fecha
+
+\begin{document}
+\maketitle %% 
+Contenido del docuemnto
+\end{document}
+
+``
