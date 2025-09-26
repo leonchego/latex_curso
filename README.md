@@ -38,4 +38,27 @@ Mi primer documento
 Contenido del docuemnto
 \end{document}
 
-``
+```
+
+## Agregar imágen
+
+```
+\documentclass{article}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+ 
+\begin{document}
+
+Este documento contiene una imágen, ver figura \ref{fig:mesh1}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{mesh}
+    \caption{A nice plot.}
+    \label{fig:mesh1}
+\end{figure}
+ 
+
+
+\end{document}
+```
