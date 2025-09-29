@@ -62,3 +62,47 @@ Este documento contiene una imágen, ver figura \ref{fig:mesh1}
 
 \end{document}
 ```
+
+### listas
+
+```
+\documentclass{article}
+\begin{document}
+\begin{itemize}
+  \item primer item
+  \item segundo item
+\end{itemize}
+\end{document}
+```
+
+```
+\documentclass{article}
+\begin{document}
+\begin{enumerate}
+  \item primer item
+  \item segundo item
+\end{enumerate}
+\end{document}
+```
+
+### math
+
+```
+\documentclass[12pt, letterpaper]{article}
+\begin{document}
+In physics, the mass-energy equivalence is stated by the equation $E=mc^2$, discovered in 1905 by Albert Einstein.
+\end{document}
+```
+
+```
+\documentclass[12pt, letterpaper]{article}
+\begin{document}
+The mass-energy equivalence is described by the famous equation
+\[ E=mc^2 \] discovered in 1905 by Albert Einstein. 
+
+In natural units ($c = 1$), the formula expresses the identity
+\begin{equation}
+E=m
+\end{equation}
+\end{document}
+```
