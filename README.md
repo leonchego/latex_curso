@@ -14,9 +14,13 @@ Ejemplo:
 
 ```
 \documentclass{article}
+
 %%% paquetes y configuraciones
+
 \begin{document}
+
 Mi primer documento
+
 \end{document}
 ```
 ## Segundo documento
@@ -27,7 +31,6 @@ Mi primer documento
 %%% paquetes
 \usepackage{graphicx} %% insertar imágenes
 
-
 %% configuraciones
 \title{My first LaTeX document} %% título del documento
 \author{Hubert Farnsworth} %% author
@@ -35,7 +38,9 @@ Mi primer documento
 
 \begin{document}
 \maketitle %% añade titulo/author/fecha al documento
+
 Contenido del docuemnto
+
 \end{document}
 
 ```
