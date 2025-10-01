@@ -32,14 +32,15 @@ Mi primer documento
 \usepackage{graphicx} %% insertar imágenes
 
 %% configuraciones
-\title{My first LaTeX document} %% título del documento
-\author{Hubert Farnsworth} %% author
-\date{August 2022} %% Fecha
+\title{Bibliografía Alexander von Humboldt} %% título del documento
+\author{Jaime Ibarra } %% author
+\date{Agosto 2022} %% Fecha
 
 \begin{document}
+
 \maketitle %% añade titulo/author/fecha al documento
 
-Contenido del docuemnto
+Alexander von Humboldt, de nombre completo Friedrich Karl Wilhelm Heinrich Alexander y también conocido en español como Alejandro de Humbold, barón von Humboldt, fue un naturalista, geógrafo y explorador alemán nacido el 14 de septiembre de 1769 en Berlín y fallecido el 6 de mayo de 1859 en la misma ciudad.​
 
 \end{document}
 
