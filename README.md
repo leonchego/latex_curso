@@ -97,7 +97,8 @@ Este documento contiene una imágen, ver figura \ref{fig:mesh1}
 ```
 \documentclass[12pt, letterpaper]{article}
 \begin{document}
-In physics, the mass-energy equivalence is stated by the equation $E=mc^2$, discovered in 1905 by Albert Einstein.
+In physics, the mass-energy equivalence is stated by the equation $E=mc^2$,
+ discovered in 1905 by Albert Einstein.
 \end{document}
 ```
 
@@ -105,7 +106,8 @@ In physics, the mass-energy equivalence is stated by the equation $E=mc^2$, disc
 \documentclass[12pt, letterpaper]{article}
 \begin{document}
 The mass-energy equivalence is described by the famous equation
-\[ E=mc^2 \] discovered in 1905 by Albert Einstein. 
+\[ E=mc^2 \]
+discovered in 1905 by Albert Einstein. 
 
 In natural units ($c = 1$), the formula expresses the identity
 \begin{equation}
