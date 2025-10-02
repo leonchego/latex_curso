@@ -40,7 +40,10 @@ Mi primer documento
 
 \maketitle %% añade titulo/author/fecha al documento
 
-Alexander von Humboldt, de nombre completo Friedrich Karl Wilhelm Heinrich Alexander y también conocido en español como Alejandro de Humbold, barón von Humboldt, fue un naturalista, geógrafo y explorador alemán nacido el 14 de septiembre de 1769 en Berlín y fallecido el 6 de mayo de 1859 en la misma ciudad.​
+Alexander von Humboldt, de nombre completo Friedrich Karl Wilhelm Heinrich Alexander
+y también conocido en español como Alejandro de Humbold, barón von Humboldt, fue un
+naturalista, geógrafo y explorador alemán nacido el 14 de septiembre de 1769 en
+Berlín y fallecido el 6 de mayo de 1859 en la misma ciudad.​
 
 \end{document}
 
@@ -60,12 +63,10 @@ Este documento contiene una imágen, ver figura \ref{fig:mesh1}
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.75\textwidth]{mesh}
-    \caption{A nice plot.}
+    \caption{Descripción de la imágen.}
     \label{fig:mesh1}
 \end{figure}
  
-
-
 \end{document}
 ```
 
