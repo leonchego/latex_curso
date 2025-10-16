@@ -24,7 +24,7 @@ Mi primer documento
 \end{document}
 ```
 ## Segundo documento
-
+ 
 ```
 \documentclass[12pt, letterpaper]{article}
 
