@@ -1,7 +1,5 @@
 # latex_curso
 
-## Introducción
-
 ## Mi primer documento
 
 Un documento $\LaTeX$ consta de tres partes principales. 
