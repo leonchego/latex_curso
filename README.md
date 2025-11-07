@@ -7,8 +7,8 @@
 Un documento $\LaTeX$ consta de tres partes principales. 
 
 - Primera linea: Define el tipo de documento y sus características pricipales
-- : paquetes y configuraciones
-- cuerpo: el contenido del texo
+- Paquetes y configuraciones
+- Cuerpo: el contenido del texo
 
 Ejemplo: 
 
@@ -56,7 +56,7 @@ Berlín y fallecido el 6 de mayo de 1859 en la misma ciudad.​
 \subsection{Subsección 1}
 ```
 
-``
+```
 \begin{document}
 
 \maketitle %% añade titulo/author/fecha al documento
@@ -150,7 +150,7 @@ E=m
 \usepackage{booktabs} %% tablas
 ```
 
-``
+```
 \begin{table}[h!]
   \caption{Frequency of Special Characters}
   \label{tab:freq}
