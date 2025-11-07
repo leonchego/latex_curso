@@ -46,7 +46,6 @@ naturalista, geógrafo y explorador alemán nacido el 14 de septiembre de 1769 e
 Berlín y fallecido el 6 de mayo de 1859 en la misma ciudad.​
 
 \end{document}
-
 ```
 
 ## Secciones
