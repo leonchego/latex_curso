@@ -168,6 +168,15 @@ E=m
 
 ### Citas
 
+Crear un documento con extensión bib: e.g. sample.bib
+
+```
+\usepackage[backend=biber, language=spanish, style=apa]{biblatex}
+
+\addbibresource{sample.bib}
+```
+
+
 ```
 \cite{}
 ```
@@ -176,15 +185,34 @@ E=m
 \printbibliography
 ```
 
+
+```
+Descubridor científico del Nuevo Mundo cuyo estudio ha dado a América algo mejor que todos los Conquistadores juntos". Así describió Simón Bolívar al hombre considerado el padre de la geografía moderna universal y, actualmente, el primer ambientalista ya que predijo el cambio climático causado por la acción del hombre \cite{amador-dominguez_neurosymbolic_2024}.
+\\
+
+\printbibliography
+```
+
+
 ####
+Para cita de estilo APA
+
 ```
 \parencite{}
 \textcite{}
 ```
 
+```
+Parencite es similar a cite \parencite{amador-dominguez_neurosymbolic_2024}.
+```
+
+```
+textcite para citar en forma narrativa, \textcite{amador-dominguez_neurosymbolic_2024}.
+```
+
 ### Renombrar encavezados
 
-``
+```
 %\renewcommand{\figurename}{\textbf{\textit{Figura}}}
 %\renewcommand{\tablename}{\textbf{\textit{Tabla}}}
 \AtBeginDocument{\renewcommand\tablename{Tabla}}
