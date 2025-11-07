@@ -49,6 +49,35 @@ Berlín y fallecido el 6 de mayo de 1859 en la misma ciudad.​
 
 ```
 
+## Secciones
+
+```
+\section{Sección 1}
+\subsection{Subsección 1}
+```
+
+``
+\begin{document}
+
+\maketitle %% añade titulo/author/fecha al documento
+
+\section{Introducción}
+
+Alexander von Humboldt, de nombre completo Friedrich Karl Wilhelm Heinrich Alexander
+y también conocido en español como Alejandro de Humbold, barón von Humboldt, fue un
+naturalista, geógrafo y explorador alemán nacido el 14 de septiembre de 1769 en
+Berlín y fallecido el 6 de mayo de 1859 en la misma ciudad.​
+
+\subsection{Contexto}
+
+Tras la muerte de su padre estudió leyes en la Universidad de Göttingen, como deseaba 
+su madre, pero ello no le impidió acudir a las clases de ciencias naturales de Georg 
+Forster, que había sido dibujante botánico en la segunda expedición del capitán James
+Cook.
+
+\end{document}
+``
+
 ## Agregar imágen
 
 ```
@@ -115,3 +144,56 @@ E=m
 \end{equation}
 \end{document}
 ```
+### Tablas
+
+```
+\usepackage{booktabs} %% tablas
+```
+
+``
+\begin{table}[h!]
+  \caption{Frequency of Special Characters}
+  \label{tab:freq}
+  \begin{tabular}{ccl}
+    \toprule
+    Non-English or Math&Frequency&Comments\\
+    \midrule
+    \O & 1 in 1,000& For Swedish names\\
+    $\pi$ & 1 in 5& Common in math\\
+    \$ & 4 in 5 & Used in business\\
+    $\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
+  \bottomrule
+\end{tabular}
+\end{table}
+```
+
+### Citas
+
+```
+\cite{}
+```
+
+```
+\printbibliography
+```
+
+####
+```
+\parencite{}
+\textcite{}
+```
+
+### Renombrar encavezados
+
+``
+%\renewcommand{\figurename}{\textbf{\textit{Figura}}}
+%\renewcommand{\tablename}{\textbf{\textit{Tabla}}}
+\AtBeginDocument{\renewcommand\tablename{Tabla}}
+%\renewcommand{\thetable}{\arabic{chapter}.\arabic{tabla}}   
+\renewcommand{\contentsname}{\textbf{Tabla de contenido}}
+%\renewcommand{\tableofcontents}{\textbf{\textit{Contenido}}}
+%\renewcommand{\refname}{Bibliografía}
+%\renewcommand\bibsection{\chapter*{\refname}}
+\addto{\captionsspanish}{\renewcommand{\refname}{Bibliografía}}
+``
+
