@@ -75,7 +75,7 @@ Forster, que había sido dibujante botánico en la segunda expedición del capit
 Cook.
 
 \end{document}
-``
+```
 
 ## Agregar imágen
 
