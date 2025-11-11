@@ -15,7 +15,13 @@ Ejemplo:
 
 %%% paquetes y configuraciones
 
+\title{Mi primer documento}
+\author{Jimmy}
+\date{Noviembre 2025}
+
 \begin{document}
+
+\maketitle
 
 Mi primer documento
 
