@@ -52,7 +52,7 @@ Berlín y fallecido el 6 de mayo de 1859 en la misma ciudad.​
 ```
 \section{Sección 1}
 \subsection{Subsección 1.1}
-\subsection{subsubsección 1.1.1
+\subsection{subsubsección 1.1.1}
 ```
 
 ## Agregar imágen
