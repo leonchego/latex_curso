@@ -104,26 +104,21 @@ Este documento contiene una imágen, ver figura \ref{fig:mesh1}
 Isertar euaciones y símbolos en el texto
 
 ```
-\documentclass[12pt, letterpaper]{article}
-\begin{document}
 In physics, the mass-energy equivalence is stated by the equation $E=mc^2$,
- discovered in 1905 by Albert Einstein.
-\end{document}
+ discovered in 1905 by Albert Einstein $\theta = 2$.
+
 ```
 Insertar ecuaciones matemáticas
 
 ```
-\documentclass[12pt, letterpaper]{article}
-\begin{document}
-The mass-energy equivalence is described by the famous equation
-\[ E=mc^2 \]
-discovered in 1905 by Albert Einstein. 
+The mass-energy equivalence is described by the famous equation discovered in 1905 by Albert Einstein.
 
-In natural units ($c = 1$), the formula expresses the identity
+\[ E=mc^2 \]
+
+
 \begin{equation}
-E=m
+y = x_{i}^{2}
 \end{equation}
-\end{document}
 ```
 ### Tablas
 
