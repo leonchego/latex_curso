@@ -101,7 +101,7 @@ Este documento contiene una imágen, ver figura \ref{fig:mesh1}
 
 ### math
 
-Isertar euaciones y símbolos en el texto
+Insertar euaciones y símbolos en el texto
 
 ```
 In physics, the mass-energy equivalence is stated by the equation $E=mc^2$,
